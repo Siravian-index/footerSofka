@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #3b4252;
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+}
+
+.box {
+  color: #e5e9f0;
+}
+
+.social-media {
+}
+
+.social-media-links {
+  text-decoration: none;
+  color: #e5e9f0;
+}
+
+.social-media-links:hover {
+  text-decoration: underline;
+  color: #d8dee9;
+}

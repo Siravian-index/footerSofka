@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: indigo;
+}
+
+.logo {
+  width: 30rem;
+  height: auto;
+}
+
+.box {
+  background-color: bisque;
+}

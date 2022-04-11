@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #3b4252;
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+}
+
+.box {
+  background-color: bisque;
+}
