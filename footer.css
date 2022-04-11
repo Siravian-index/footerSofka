@@ -1,9 +1,15 @@
+:root {
+  --main-bg-color: #3b4252;
+  --font-color: #e5e9f0;
+  --text-hover: #d8dee9;
+}
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #3b4252;
+  background: var(--main-bg-color);
   border-radius: 1rem;
+  padding: 0.3rem;
 }
 
 .logo {
@@ -12,7 +18,7 @@
 }
 
 .box {
-  color: #e5e9f0;
+  color: var(--font-color);
 }
 
 .social-media {
@@ -20,10 +26,10 @@
 
 .social-media-links {
   text-decoration: none;
-  color: #e5e9f0;
+  color: var(--font-color);
 }
 
 .social-media-links:hover {
-  text-decoration: underline;
-  color: #d8dee9;
+  text-decoration: wavy;
+  color: var(--text-hover);
 }
